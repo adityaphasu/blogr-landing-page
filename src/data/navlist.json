@@ -1,0 +1,14 @@
+[
+  {
+    "heading": "Product",
+    "items": ["Overview", "Pricing", "Marketplace", "Features", "Integrations"]
+  },
+  {
+    "heading": "Company",
+    "items": ["About", "Team", "Blog", "Careers"]
+  },
+  {
+    "heading": "Connect",
+    "items": ["Contact", "Newsletter", "LinkedIn"]
+  }
+]
