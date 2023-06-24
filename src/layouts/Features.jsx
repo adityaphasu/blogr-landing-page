@@ -3,6 +3,7 @@ import Illustration1 from "../assets/images/illustration-laptop-mobile.svg";
 import Illustration2 from "../assets/images/illustration-laptop-desktop.svg";
 import featuresData from "../data/content.json";
 import SectionComponent from "../components/SectionComponent";
+import { fadeInX } from "../utils/animatedVariants";
 
 export default function Features() {
   const feature = featuresData.features;
@@ -10,6 +11,7 @@ export default function Features() {
   return (
     <>
       <SectionComponent
+        variant={fadeInX("negative")}
         heading="Additional Features"
         data={feature}
         illustrationMobile={Illustration1}

@@ -3,12 +3,14 @@ import Illustration1 from "../assets/images/illustration-editor-mobile.svg";
 import Illustration2 from "../assets/images/illustration-editor-desktop.svg";
 import aboutData from "../data/content.json";
 import SectionComponent from "../components/SectionComponent";
+import { fadeInX } from "../utils/animatedVariants";
 
 export default function About() {
   const data = aboutData.about;
 
   return (
     <SectionComponent
+      variant={fadeInX("positive")}
       heading="Designed for the future"
       data={data}
       illustrationMobile={Illustration1}
